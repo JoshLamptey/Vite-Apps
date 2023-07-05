@@ -5,30 +5,29 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={Pizza} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Pizzzaaaa + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <nav>
+      <div className="img">
+      <img src= {reactLogo} alt='ReactLogo' />
+      <h3>React Facts</h3></div>
+      <h4>React Course- Project 1</h4>
+    </nav>
+    <main className="container">
+      <h2>Fun Facts about React</h2>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Has well over 100k stars on Github  </li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Was originally created by Jordan Walke</li>
+
+      </ul>
+    </main>
+
     </>
   )
 }
