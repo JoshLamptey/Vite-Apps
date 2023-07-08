@@ -13,20 +13,8 @@ function App() {
       <div className="img">
       <img src= {reactLogo} alt='ReactLogo' />
       <h3>React Facts</h3></div>
-      <h4>React Course- Project 1</h4>
+      <h4>React Course-Project 1</h4>
     </nav>
-    <main className="container">
-      <h2>Fun Facts about React</h2>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Has well over 100k stars on Github  </li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Was originally created by Jordan Walke</li>
-
-      </ul>
-    </main>
 
     </>
   )
