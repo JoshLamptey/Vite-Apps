@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Pizza from './assets/pizza.png'
 import viteLogo from '/vite.svg'
+import Body from './Body'
 import './App.css'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <h3>React Facts</h3></div>
       <h4>React Course-Project 1</h4>
     </nav>
-
+    <Body />
     </>
   )
 }
